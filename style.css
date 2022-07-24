@@ -21,6 +21,23 @@
   
 }
 
+.icons{
+    font-size: 3em;
+    text-align:center;
+}
+nav {
+    border-bottom: #C5001B 3px solid;
+}
+
+.nglogo{
+    width: 3.5em;
+    height: 3.5em;
+    margin-right: 1.5em;
+    background-image:url(../img/nglogo.svg);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
 .ngnav{
    
     font-style: italic;
