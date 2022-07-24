@@ -11,8 +11,6 @@
   min-height: 100vh;
 }
 
-
-
 .video-bg {
   position: absolute;
   z-index: -1;
@@ -21,4 +19,24 @@
   min-width: 100%;
   min-height: 100%;
   
+}
+
+.ngnav{
+   
+    font-style: italic;
+    font-size:1.5em;
+    font-weight:800;
+}
+
+.nav-link{
+    color: #C5001B;
+    margin: 0 10px;
+    
+}
+
+.nav-link:hover{
+    color: #1F1828;
+    padding: 0.5em 0 0 0;
+    transition: 0.1s;
+    animation: ease-out;
 }
