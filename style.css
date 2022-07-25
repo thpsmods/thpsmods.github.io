@@ -34,7 +34,7 @@ nav {
     width: 3.5em;
     height: 3.5em;
     margin-right: 1.5em;
-    background-image:url(../img/nglogo.svg);
+    background-image:url(/logo_untouched.png);
     background-repeat:no-repeat;
     background-size:contain;
 }
