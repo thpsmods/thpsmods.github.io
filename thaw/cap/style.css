@@ -1,0 +1,59 @@
+ .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background: #333; */
+  color: white;
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.video-bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+.icons{
+    font-size: 3em;
+    text-align:center;
+}
+nav {
+    border-bottom: #C5001B 3px solid;
+}
+
+.nglogo{
+    width: 7em;
+    height: 7em;
+    margin-right: 1.5em;
+    background-image:url(/logo_untouched.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+
+.ngnav{
+   
+    font-style: italic;
+    font-size:1.5em;
+    font-weight:800;
+}
+
+.nav-link{
+    color: #C5001B;
+    margin: 0 10px;
+    
+}
+
+.nav-link:hover{
+    color: #1F1828;
+    padding: 0.5em 0 0 0;
+    transition: 0.1s;
+    animation: ease-out;
+}
